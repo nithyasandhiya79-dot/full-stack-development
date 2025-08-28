@@ -1,0 +1,26 @@
+import java.util.Arrays;
+public class LearnArrays {
+public static void main(String[]args){
+int a=1;
+int b=2;
+int c=3;
+int d=4;
+int e=5;
+int[]marks=new int[5];
+marks[0]=81;
+marks[1]=92;
+marks[2]=94;
+marks[3]=88;
+marks[4]=81;
+int[] scores={80,50,100,10,78};
+int lenOfArray=scores.length;
+System.out.println("score in 3rd match is"+scores[2]);
+Arrays.sort(scores);
+System.out.println(scores[2]);
+for(int i=0 ;i < lenOfArray ; i++){
+System.out.println(scores[i]);
+System.out.println("Least value"+scores[0]);
+System.out.println("Largest value"+scores[lenOfArray-1]);
+}
+}
+}
